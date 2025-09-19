@@ -49,6 +49,10 @@ div {
     height:100vh;
 
 }
+.wide-header-img {
+    display: block;
+    width:100vw;
+}
 
 .end-img {
     object-fit: cover;
