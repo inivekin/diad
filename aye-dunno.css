@@ -50,8 +50,11 @@ div {
 
 }
 .wide-header-img {
+    height: 100vh;
+    object-fit: cover;
     display: block;
     width:100vw;
+    position: sticky;
 }
 
 .end-img {
