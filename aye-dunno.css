@@ -13,6 +13,31 @@ body {
     overflow-x: clip;
 }
 
+a {
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+}
+span {
+    top: 12vh;
+    left:50vw;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+    color: #e0e0e0;
+}
+
+.part-selector {
+    height: 25vh;
+    width: 100vw;
+}
+
+.part-img {
+    object-fit: cover;
+    display: block;
+    &.selectable:hover { opacity:0.3; }
+}
+
 .flipped-parts {
     background-color: #1d1f21;
 }
